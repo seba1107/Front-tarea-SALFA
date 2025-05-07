@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [FormsModule],
   templateUrl: './todo-form.component.html',
+  styleUrls: ['./todo-form.component.css']
 })
 export class TodoFormComponent {
   @Output() taskAdded = new EventEmitter<string>();

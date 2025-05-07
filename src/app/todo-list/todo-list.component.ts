@@ -7,6 +7,7 @@ import { Task } from '../services/todo.service';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './todo-list.component.html',
+  styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent {
   @Input() tasks: Task[] = [];

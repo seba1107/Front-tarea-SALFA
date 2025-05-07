@@ -8,6 +8,7 @@ import { TodoListComponent } from './todo-list/todo-list.component';
   templateUrl: './app.component.html',
   standalone: true,
   imports: [TodoFormComponent, TodoListComponent],
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   tasks: Task[] = [];
